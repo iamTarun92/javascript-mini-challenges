@@ -46,7 +46,6 @@ function calculateElectricityBill(units) {
 
 console.log(calculateElectricityBill(50));
 ```
----
 
 ## 2. Check if a Character is Uppercase, Lowercase, Digit, or Special Character
 
@@ -61,6 +60,29 @@ function checkChar(char) {
   } else if (/^[^a-zA-Z0-9]$/.test(char)) {
     console.log("Special Character");
   }
+}
+```
+
+## 3. Calculate Income Tax Based on Slabs
+
+```js
+function sumOfIncome(incomes) {
+  const slabs = [
+    { min: 0, max: 250000, rate: 0 },
+    { min: 250000, max: 500000, rate: 5 },
+    { min: 500000, max: 1000000, rate: 20 },
+    { min: 1000000, max: Infinity, rate: 30 },
+  ];
+  let tax = 0;
+  for (const slab of slabs) {
+    if (incomes > slab.min) {
+      const taxableIncome = Math.min(incomes, slab.max) - slab.min;
+      tax += (taxableIncome * slab.rate) / 100;
+    } else {
+      break;
+    }
+  }
+  return tax;
 }
 ```
 
