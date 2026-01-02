@@ -1,4 +1,4 @@
-### 1. Print Numbers from 1 to N
+## 1. Print Numbers from 1 to N
 
 ```js
 const num = 10;
@@ -10,7 +10,7 @@ for (let i = 1; i <= num; i++) {
 
 ---
 
-### 2. Print Numbers from N to 1 without changing the loop condition of above question
+## 2. Print Numbers from N to 1 without changing the loop condition of above question
 
 ```js
 const num = 10;
@@ -22,7 +22,7 @@ for (let i = 1; i <= num; i++) {
 
 ---
 
-### 3. Print All Even Numbers from 1 to N
+## 3. Print All Even Numbers from 1 to N
 
 ```js
 const num = 10;
@@ -46,7 +46,7 @@ function printEvenNumbers(n) {
 
 ---
 
-### 4. Sum of First N Natural Numbers
+## 4. Sum of First N Natural Numbers
 
 **Brute Force Solution and - time complexity is O(n)**
 
@@ -72,7 +72,7 @@ console.log(sum);
 
 ---
 
-### 5. Product (Factorial) of N
+## 5. Product (Factorial) of N
 
 ```js
 const num = 10n;
@@ -102,7 +102,7 @@ console.log(factorial(10));
 
 ---
 
-### 6. Sum of All Even Numbers up to N
+## 6. Sum of All Even Numbers up to N
 
 ```js
 const num = 10n;
@@ -142,7 +142,7 @@ console.log(sumOfEvenNumbers(10));
 
 ---
 
-### 7. Print Squares of Numbers from 1 to N
+## 7. Print Squares of Numbers from 1 to N
 
 ```js
 for (let i = 1; i <= num; i++) {
@@ -154,7 +154,7 @@ for (let i = 1; i <= num; i++) {
 
 ---
 
-### 8.  Print cubes of numbers from 1 to N
+## 8.  Print cubes of numbers from 1 to N
 
 ```js
 function printCubes(n) {
@@ -171,7 +171,7 @@ console.log(printCubes(10));
 
 ---
 
-### 9. Print all even numbers between 1 to n which are perfect squares
+## 9. Print all even numbers between 1 to n which are perfect squares
 
 ```js
 function printEvenPerfectSquares(n) {
