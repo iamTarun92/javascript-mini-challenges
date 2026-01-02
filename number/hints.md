@@ -1,2 +1,0 @@
-- zero factorial is 1.
-- Can't use bigint value with MAth.pow() method.
